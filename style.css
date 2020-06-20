@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body { 
+    color: #fff; 
+    font-weight: bold; 
+    font-size: 18px;
+    background-image: url("./bgd2chatboty.jpg"); 
+}
+span { 
+	color: greenyellow; 
+} 
+::-webkit-input-placeholder { 
+    color: grey 
+}
+#main { 
+    justify-content: center;
+    font-family: "Karla" sans-serif;
+    top: 40%; 
+    right: 60px; 
+    width: 400px; 
+    border: 0px solid #421; 
+    padding: 40px; 
+}
+#main div { 
+	margin: 10px; 
+} 
+#input { 
+    border: 0; 
+    background: #ffffff; 
+    padding: 5px; 
+    border: 1px solid green; 
+    outline: none;
+    width: 250px;
+    color: grey;
+    border-radius: 20px;
+    height: 35px;
+}
